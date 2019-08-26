@@ -2,3 +2,33 @@ body{
     padding: 0;
     margin: 0;
 }
+
+nav{
+    padding: 0 !important;
+
+    &.bg-light{ 
+        background-color: $white !important; 
+    }
+
+    div{
+        ul{
+            li{
+                a{
+                    color: $gray-700 !important;
+
+                    &.nav-link{
+                        border-radius: 0 !important;
+                    }
+
+                    &.nav-link.active{
+                        background-color: $gray-100 !important;
+                    }
+                }
+
+                a:active{
+                    color: $gray-700 !important;
+                }
+            }
+        }
+    }
+}
