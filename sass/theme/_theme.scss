@@ -10,7 +10,6 @@ nav{
     box-shadow: 1px 2px 10px #ddd;
     -webkit-box-shadow: 1px 2px 10px #ddd;
     -moz-box-shadow: 1px 2px 10px #ddd; 
-    opacity: 0.9;
 
     &.bg-light{ 
         background-color: $white !important; 
@@ -36,7 +35,7 @@ nav{
                     }
      
                     a:active{
-                        color: $gray-700 !important;
+                        //color: $gray-700 !important;
                     }
                 }
             }
@@ -61,6 +60,10 @@ nav{
                     border: inherit !important;
                     border-radius: 50px !important;
                 }
+
+                button:hover{
+                    background-color: inherit !important;
+                }
             }
         }
 }
@@ -68,7 +71,7 @@ nav{
 
 
 .white-space{
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 
@@ -77,7 +80,7 @@ nav{
 
 
 
-
+/* 
 .search-box {
     transform: translate(-50%, -50%);
     background: #2f3640;
@@ -127,7 +130,7 @@ nav{
     line-height: 40px;
     width: 0px;
     font-weight: bold;
-   }
+   } */
 
 /* h1{
     animation: back_animate 25s infinite linear;
