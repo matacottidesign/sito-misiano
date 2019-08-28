@@ -11022,7 +11022,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #f8f9fa;
-  color: #495057; }
+  color: #495057;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .py-6 {
   padding: 4rem 0; }
@@ -11052,25 +11053,29 @@ body {
   padding-bottom: 6rem; }
 
 h1 {
-  color: #343a40; }
+  color: #87cefa; }
 
 h2 {
-  color: #343a40; }
+  color: #87cefa; }
 
 h3 {
-  color: #343a40; }
+  color: #87cefa; }
 
 h4 {
-  color: #343a40; }
+  color: #87cefa; }
 
 h5 {
-  color: #343a40; }
+  color: #87cefa; }
 
 h6 {
-  color: #343a40; }
+  color: #87cefa; }
+
+a {
+  text-decoration: none !important; }
 
 nav {
   padding: 0 !important;
+  opacity: 0.9;
   box-shadow: 1px 2px 10px #ddd;
   -webkit-box-shadow: 1px 2px 10px #ddd;
   -moz-box-shadow: 1px 2px 10px #ddd; }
@@ -11089,24 +11094,6 @@ nav {
     color: #fff !important; }
   nav div ul li a:focus {
     outline: inherit !important; }
-  nav div form {
-    border: 1px #87cefa solid;
-    border-radius: 50px !important;
-    background-color: #87cefa !important; }
-    nav div form input {
-      border: inherit !important;
-      border-radius: 50px !important;
-      width: 150px !important;
-      color: #87cefa; }
-    nav div form input:-ms-input-placeholder {
-      color: #87cefa !important; }
-    nav div form input::placeholder {
-      color: #87cefa !important; }
-    nav div form button {
-      border: inherit !important;
-      border-radius: 50px !important; }
-    nav div form button:hover {
-      background-color: inherit !important; }
 
 div ol li {
   width: 15px !important;
@@ -11128,7 +11115,7 @@ div div div div a:hover {
   text-decoration: none !important; }
 
 .white-space {
-  margin-top: 55px; }
+  margin-top: 70px; }
 
 .card {
   border: inherit !important;
@@ -11143,9 +11130,9 @@ div div div div a:hover {
 
 .card:hover {
   box-shadow: 1px 2px 10px #ddd;
-  background-color: #fff;
   -webkit-box-shadow: 1px 2px 10px #ddd;
-  -moz-box-shadow: 1px 2px 10px #ddd; }
+  -moz-box-shadow: 1px 2px 10px #ddd;
+  background-color: #fff; }
 
 .staff {
   background-color: #fff; }
@@ -11159,13 +11146,30 @@ div div div div a:hover {
     transition: background-color 0.5s linear; }
   .card-group div.staff-card:hover {
     box-shadow: 1px 2px 10px #ddd;
-    background-color: #f8f9fa;
     -webkit-box-shadow: 1px 2px 10px #ddd;
-    -moz-box-shadow: 1px 2px 10px #ddd; }
+    -moz-box-shadow: 1px 2px 10px #ddd;
+    background-color: #f8f9fa; }
   .card-group div div p {
     color: #adb5bd;
     border: inherit !important;
     padding: 0; }
+
+footer {
+  background-color: #87cefa; }
+  footer div div div ul {
+    list-style: none;
+    line-height: 40px;
+    padding-left: 0 !important; }
+    footer div div div ul li a {
+      color: #fff;
+      padding: 10px;
+      border-radius: 0 !important;
+      transition: background-color 0.3s linear; }
+    footer div div div ul li a:hover {
+      background-color: #fff !important;
+      color: #87cefa !important; }
+  footer div div.social {
+    border-left: 3px #fff solid; }
 
 /*
 * Use existing Bootstrap 4 classes and

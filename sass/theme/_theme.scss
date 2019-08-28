@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: $gray-100;
     color: $gray-700;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .py-6 {
@@ -36,92 +37,69 @@ body{
 }
 
 h1{
-    color: $dark;
+    color: $primary;
 }
 h2{
-    color: $dark;
+    color: $primary;
 }
 h3{
-    color: $dark;
+    color: $primary;
 }
 h4{
-    color: $dark;
+    color: $primary;
 }
 h5{
-    color: $dark;
+    color: $primary;
 }
 h6{
-    color: $dark;
+    color: $primary;
+}
+
+a{
+    text-decoration: none !important;
 }
 
 nav{
     padding: 0 !important;
-    box-shadow: 1px 2px 10px #ddd;
-    -webkit-box-shadow: 1px 2px 10px #ddd;
-    -moz-box-shadow: 1px 2px 10px #ddd; 
+    opacity: 0.9;
+    @include shadow-card;
 
     &.bg-light{ 
         background-color: $white !important; 
     }
 
-        div{
-            &.navbar-collapse{
-                flex-grow: inherit !important;
-            }
+    div{
+        &.navbar-collapse{
+            flex-grow: inherit !important;
+        }
 
-            button{
-                border-color: rgba($color: #fff, $alpha: 0) !important; 
-            }
+        button{
+            border-color: rgba($color: #fff, $alpha: 0) !important; 
+        }
 
-            ul{
-                li{
-                    a{
-                        border-radius: 0 !important;
+        ul{
+            li{
+                a{
+                    border-radius: 0 !important;
 
-                        -webkit-transition: background-color 0.3s linear;
-                        -moz-transition: background-color 0.3s linear;
-                        -o-transition: background-color 0.3s linear;
-                        -ms-transition: background-color 0.3s linear;
-                        transition: background-color 0.3s linear;
-                    }
-
-                    a:hover{
-                        background-color: $primary !important;
-                        color: $white !important;
-                    }
-
-                    a:focus{
-                        outline: inherit !important;
-                    }
-                }
-            }
-
-            form{
-                border: 1px $primary solid;
-                border-radius: 50px !important;
-                background-color: $primary !important;
-            
-                input{
-                    border: inherit !important;
-                    border-radius: 50px !important;
-                    width: 150px !important;
-                    color: $primary;
+                    -webkit-transition: background-color 0.3s linear;
+                    -moz-transition: background-color 0.3s linear;
+                    -o-transition: background-color 0.3s linear;
+                    -ms-transition: background-color 0.3s linear;
+                    transition: background-color 0.3s linear;
                 }
 
-                input::placeholder{
-                    color: $primary !important;
-                }
-            
-                button{
-                    border: inherit !important;
-                    border-radius: 50px !important;
+                a:hover{
+                    background-color: $primary !important;
+                    color: $white !important;
                 }
 
-                button:hover{
-                    background-color: inherit !important;
+                a:focus{
+                    outline: inherit !important;
                 }
             }
         }
+    }
 }
 
 //Carousel
@@ -147,11 +125,7 @@ div{
                     border-left: 3px solid $primary;
                     padding: 10px;
 
-                    -webkit-transition: background-color 0.3s linear;
-                    -moz-transition: background-color 0.3s linear;
-                    -o-transition: background-color 0.3s linear;
-                    -ms-transition: background-color 0.3s linear;
-                    transition: background-color 0.3s linear;
+                    @include webkit-transition(background-color 0.3s linear); 
                 }
 
                 a:hover{
@@ -165,18 +139,14 @@ div{
 }
 
 .white-space{
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 .card{
     border: inherit !important;
     background-color: $gray-100;
 
-    -webkit-transition: background-color 0.5s linear;
-    -moz-transition: background-color 0.5s linear;
-    -o-transition: background-color 0.5s linear;
-    -ms-transition: background-color 0.5s linear;
-    transition: background-color 0.5s linear;
+    @include webkit-transition(background-color 0.5s linear);
 
     div{
         div{
@@ -197,10 +167,8 @@ div{
     }
 }
 .card:hover{
-    box-shadow: 1px 2px 10px #ddd;
+    @include shadow-card;
     background-color: $white;
-    -webkit-box-shadow: 1px 2px 10px #ddd;
-    -moz-box-shadow: 1px 2px 10px #ddd; 
 }
 
 //Staff
@@ -223,18 +191,14 @@ div{
         &.staff-card{
             background-color: $white;
 
-            -webkit-transition: background-color 0.5s linear;
-            -moz-transition: background-color 0.5s linear;
-            -o-transition: background-color 0.5s linear;
-            -ms-transition: background-color 0.5s linear;
-            transition: background-color 0.5s linear;  
+            @include webkit-transition(background-color 0.5s linear); 
         }
 
         &.staff-card:hover{
             box-shadow: 1px 2px 10px #ddd;
-            background-color: $gray-100;
             -webkit-box-shadow: 1px 2px 10px #ddd;
-            -moz-box-shadow: 1px 2px 10px #ddd; 
+            -moz-box-shadow: 1px 2px 10px #ddd;
+            background-color: $gray-100;
         }
 
         div{
@@ -247,6 +211,40 @@ div{
     }
 }
 
+footer{
+    background-color: $primary;
+
+    div{
+        div{
+            div{
+                ul{
+                    list-style: none;
+                    line-height: 40px;
+                    padding-left: 0 !important;
+
+                    li{
+                        a{
+                            color: $white;
+                            padding: 10px;
+                            border-radius: 0 !important;
+    
+                            @include webkit-transition(background-color 0.3s linear);
+                        }
+    
+                        a:hover{
+                            background-color: $white !important;
+                            color: $primary !important;
+                        }
+                    }
+                }
+            }
+
+            &.social{
+                border-left: 3px $white solid;
+            }
+        }
+    }
+}
 
 
 
