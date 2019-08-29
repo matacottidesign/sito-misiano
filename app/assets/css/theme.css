@@ -11117,6 +11117,9 @@ div div div div a:hover {
 .white-space {
   margin-top: 70px; }
 
+.col-12 p {
+  border: 0; }
+
 .card {
   border: inherit !important;
   background-color: #f8f9fa;
@@ -11140,7 +11143,7 @@ div div div div a:hover {
     padding: 0; }
 
 .card-group div {
-  padding: 20px !important; }
+  padding: 25px !important; }
   .card-group div.staff-card {
     background-color: #fff;
     transition: background-color 0.5s linear; }

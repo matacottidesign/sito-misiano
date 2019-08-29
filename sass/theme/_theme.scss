@@ -142,6 +142,11 @@ div{
     margin-top: 70px;
 }
 
+.col-12{
+    p{
+        border: 0;
+    }
+}
 .card{
     border: inherit !important;
     background-color: $gray-100;
@@ -186,7 +191,7 @@ div{
 }
 .card-group{
     div{
-        padding: 20px !important;
+        padding: 25px !important;
 
         &.staff-card{
             background-color: $white;
