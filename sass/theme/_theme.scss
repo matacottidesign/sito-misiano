@@ -172,7 +172,7 @@ div{
 
             #space{
                 width: 150px;
-                height: 276px;
+                height: 167px;
             }
         }
     }
@@ -298,6 +298,75 @@ div{
     }
 }
 
+.icon-card{
+    div{
+        padding: 40px !important;
+
+        a{
+            padding: 0;
+        }
+    }
+}
+
+form{
+    div{
+        div{
+            label{
+                color: $primary;
+            }
+
+            input{
+                border-radius: 0 !important;
+            }
+
+            input::placeholder{
+                color: $gray-300 !important;
+            }
+        }
+    }
+
+    div{
+        label{
+            color: $primary;
+        }
+
+        input{
+            border-radius: 0 !important;
+        }
+
+        input::placeholder{
+            color: $gray-300 !important;
+        }
+
+        textarea{
+            border-radius: 0 !important;
+        }
+
+        textarea::placeholder{
+            color: $gray-300 !important;
+        }
+    }
+
+    div{
+        div{
+            label{
+                a{
+                    border-left: none;
+                    padding: 0;
+                }
+
+                a:hover{
+                    background-color: inherit;
+                    color: $teal !important;
+                }
+            }
+        }
+    }
+
+    button{
+        color: $white !important; 
+    }
+}
 
 
 

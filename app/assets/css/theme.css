@@ -11132,7 +11132,7 @@ div div div div a:hover {
     border: inherit !important; }
   .card div div #space {
     width: 150px;
-    height: 276px; }
+    height: 167px; }
 
 .card:hover {
   box-shadow: 1px 2px 10px #ddd;
@@ -11198,6 +11198,55 @@ footer {
 
 div div div div p {
   padding: 0 !important; }
+
+.icon-card div {
+  padding: 40px !important; }
+  .icon-card div a {
+    padding: 0; }
+
+form div div label {
+  color: #87cefa; }
+
+form div div input {
+  border-radius: 0 !important; }
+
+form div div input:-ms-input-placeholder {
+  color: #dee2e6 !important; }
+
+form div div input::placeholder {
+  color: #dee2e6 !important; }
+
+form div label {
+  color: #87cefa; }
+
+form div input {
+  border-radius: 0 !important; }
+
+form div input:-ms-input-placeholder {
+  color: #dee2e6 !important; }
+
+form div input::placeholder {
+  color: #dee2e6 !important; }
+
+form div textarea {
+  border-radius: 0 !important; }
+
+form div textarea:-ms-input-placeholder {
+  color: #dee2e6 !important; }
+
+form div textarea::placeholder {
+  color: #dee2e6 !important; }
+
+form div div label a {
+  border-left: none;
+  padding: 0; }
+
+form div div label a:hover {
+  background-color: inherit;
+  color: #20c997 !important; }
+
+form button {
+  color: #fff !important; }
 
 /*
 * Use existing Bootstrap 4 classes and
