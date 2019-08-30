@@ -116,9 +116,11 @@ div{
             div{
 
                 p{
-                    border-left: 3px solid $white;
-                    padding: 10px;
-                    font-size: 18px;
+                    &.carousel-text{
+                        border-left: 3px solid $white !important;
+                        padding: 10px !important;
+                        font-size: 18px !important;
+                    }
                 }
 
                 a{
@@ -138,8 +140,12 @@ div{
     }
 }
 
-.white-space{
+.white-space-top{
     margin-top: 70px;
+}
+
+.white-space-bottom{
+    margin-bottom: 64px;
 }
 
 .col-12{
@@ -251,6 +257,46 @@ footer{
     }
 }
 
+.contattaci{
+    background-color: $teal;
+    opacity: 0.9;
+    padding: 20px;
+
+    @include webkit-transition(background-color 0.3s linear);
+
+    a{
+        color: $dark;
+    }  
+}
+
+.contattaci:hover{
+    background-color: $primary !important;
+}  
+
+.list-group{
+
+    a{
+        border: inherit !important;
+        border-radius: 0 !important;
+    }
+
+    a:hover{
+        color: inherit !important;
+        background-color: $gray-200 !important;
+    }
+}
+
+div{
+    div{
+        div{
+            div{
+                p{
+                    padding: 0 !important;
+                }
+            }
+        }
+    }
+}
 
 
 

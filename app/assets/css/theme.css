@@ -11099,10 +11099,10 @@ div ol li {
   width: 15px !important;
   height: 15px !important; }
 
-div div div div p {
-  border-left: 3px solid #fff;
-  padding: 10px;
-  font-size: 18px; }
+div div div div p.carousel-text {
+  border-left: 3px solid #fff !important;
+  padding: 10px !important;
+  font-size: 18px !important; }
 
 div div div div a {
   border-left: 3px solid #87cefa;
@@ -11114,8 +11114,11 @@ div div div div a:hover {
   background-color: #87cefa;
   text-decoration: none !important; }
 
-.white-space {
+.white-space-top {
   margin-top: 70px; }
+
+.white-space-bottom {
+  margin-bottom: 64px; }
 
 .col-12 p {
   border: 0; }
@@ -11173,6 +11176,28 @@ footer {
       color: #87cefa !important; }
   footer div div.social {
     border-left: 3px #fff solid; }
+
+.contattaci {
+  background-color: #20c997;
+  opacity: 0.9;
+  padding: 20px;
+  transition: background-color 0.3s linear; }
+  .contattaci a {
+    color: #343a40; }
+
+.contattaci:hover {
+  background-color: #87cefa !important; }
+
+.list-group a {
+  border: inherit !important;
+  border-radius: 0 !important; }
+
+.list-group a:hover {
+  color: inherit !important;
+  background-color: #e9ecef !important; }
+
+div div div div p {
+  padding: 0 !important; }
 
 /*
 * Use existing Bootstrap 4 classes and
