@@ -11248,6 +11248,12 @@ form div div label a:hover {
 form button {
   color: #fff !important; }
 
+.pulsanti-slide a {
+  border-left: inherit !important; }
+
+.pulsanti-slide a:hover {
+  background-color: #e9ecef !important; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

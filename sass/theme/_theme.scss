@@ -369,5 +369,17 @@ form{
 }
 
 
+.pulsanti-slide{
+    a{
+        border-left: inherit !important;
+    }
+
+    a:hover{
+        background-color: $gray-200 !important;
+    }
+}
+
+
+
 
 
