@@ -5,51 +5,50 @@
 <style type="text/css">
 	.st0{fill:#8CCDF2;}
 	.st1{fill:#FFFFFF;}
-	.st2{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
 </style>
 <circle class="st0" cx="189.1" cy="189.1" r="190.1"/>
-<path class="st1" d="M99.6,113.2l165.9,165.9H99.6V113.2 M89.6,89.1v200h200L89.6,89.1L89.6,89.1z"/>
-<path class="st1" d="M140.1,205.7l32.9,32.9h-32.9V205.7 M130.1,181.6v67h67L130.1,181.6L130.1,181.6z"/>
+<path class="st1" d="M139.8,112.5l140,140h-140V112.5 M131.4,92.2V261h168.8L131.4,92.2L131.4,92.2z"/>
+<path class="st1" d="M174,190.6l27.8,27.8H174V190.6 M165.5,170.3v56.5h56.5L165.5,170.3L165.5,170.3z"/>
 <g>
-	<rect x="89.6" y="145.6" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="139.9" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="164.3" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="155.7" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="183.1" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="171.5" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="201.8" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="187.3" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="220.6" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="203.2" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="239.3" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="219" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="89.6" y="258.1" class="st1" width="21.5" height="10"/>
+	<rect x="131.4" y="234.8" class="st1" width="18.1" height="8.4"/>
 </g>
 <g>
-	<rect x="110.6" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="149.1" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="129.3" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="164.9" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="148.1" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="180.7" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="166.8" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="196.5" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="185.6" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="212.4" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="204.3" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="228.2" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 <g>
-	<rect x="223.1" y="267.6" class="st1" width="10" height="21.5"/>
+	<rect x="244" y="242.9" class="st1" width="8.4" height="18.1"/>
 </g>
 </svg>

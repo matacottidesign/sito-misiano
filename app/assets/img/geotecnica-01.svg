@@ -8,63 +8,59 @@
 </style>
 <circle class="st0" cx="190.2" cy="189.1" r="190.1"/>
 <g>
-	<circle class="st1" cx="115" cy="216.7" r="6.3"/>
+	<circle class="st1" cx="125" cy="204.3" r="3.6"/>
 </g>
 <g>
-	<circle class="st1" cx="142.1" cy="216.7" r="6.3"/>
+	<circle class="st1" cx="265.9" cy="201.4" r="2"/>
 </g>
 <g>
-	<circle class="st1" cx="251.6" cy="216.7" r="6.3"/>
+	<circle class="st1" cx="189" cy="207.7" r="3.4"/>
 </g>
 <g>
-	<circle class="st1" cx="224.5" cy="216.7" r="6.3"/>
+	<circle class="st1" cx="141.3" cy="221" r="2.9"/>
 </g>
 <g>
-	<circle class="st1" cx="183.3" cy="216.7" r="6.3"/>
+	<circle class="st1" cx="141.3" cy="241.6" r="4.3"/>
 </g>
 <g>
-	<circle class="st1" cx="115" cy="238" r="6.3"/>
+	<circle class="st1" cx="246" cy="210.6" r="2.8"/>
 </g>
 <g>
-	<circle class="st1" cx="142.1" cy="238" r="6.3"/>
+	<circle class="st1" cx="261.6" cy="224.1" r="3"/>
 </g>
 <g>
-	<circle class="st1" cx="251.6" cy="238" r="6.3"/>
+	<circle class="st1" cx="199.5" cy="231.9" r="3.2"/>
 </g>
 <g>
-	<circle class="st1" cx="224.5" cy="238" r="6.3"/>
+	<circle class="st1" cx="218.5" cy="249.8" r="4.3"/>
 </g>
 <g>
-	<circle class="st1" cx="183.3" cy="238" r="6.3"/>
+	<circle class="st1" cx="118.7" cy="235.3" r="4.1"/>
 </g>
 <g>
-	<circle class="st1" cx="115" cy="259.2" r="6.3"/>
+	<circle class="st1" cx="263.9" cy="246.8" r="3.9"/>
 </g>
 <g>
-	<circle class="st1" cx="142.1" cy="259.2" r="6.3"/>
+	<circle class="st1" cx="242.2" cy="237.8" r="2.6"/>
 </g>
 <g>
-	<circle class="st1" cx="251.6" cy="259.2" r="6.3"/>
+	<circle class="st1" cx="180.7" cy="249.8" r="4.3"/>
 </g>
 <g>
-	<circle class="st1" cx="224.5" cy="259.2" r="6.3"/>
+	<path class="st1" d="M279.5,271.2H105.8c-6.9,0-12.4-5.6-12.4-12.4v-66.2c0-6.9,5.6-12.4,12.4-12.4h173.7c6.9,0,12.4,5.6,12.4,12.4
+		v66.1C292,265.6,286.4,271.2,279.5,271.2z M105.8,190.1c-1.4,0-2.5,1.1-2.5,2.5v66.1c0,1.4,1.1,2.5,2.5,2.5h173.7
+		c1.4,0,2.5-1.1,2.5-2.5v-66.1c0-1.4-1.1-2.5-2.5-2.5H105.8z"/>
 </g>
 <g>
-	<circle class="st1" cx="183.3" cy="259.2" r="6.3"/>
+	<rect x="157.7" y="184.7" class="st1" width="14.8" height="55.8"/>
 </g>
 <g>
-	<path class="st1" d="M269.5,283.6H95.8c-6.9,0-12.4-5.6-12.4-12.4V205c0-6.9,5.6-12.4,12.4-12.4h173.7c6.9,0,12.4,5.6,12.4,12.4
-		v66.1C282,278,276.4,283.6,269.5,283.6z M95.8,202.5c-1.4,0-2.5,1.1-2.5,2.5v66.1c0,1.4,1.1,2.5,2.5,2.5h173.7
-		c1.4,0,2.5-1.1,2.5-2.5V205c0-1.4-1.1-2.5-2.5-2.5H95.8z"/>
+	<rect x="214.4" y="184.7" class="st1" width="14.8" height="55.8"/>
 </g>
 <g>
-	<rect x="161.2" y="197.1" class="st1" width="5" height="81.5"/>
+	<rect x="144.2" y="161.8" class="st1" width="98.2" height="27.9"/>
 </g>
 <g>
-	<rect x="201.4" y="197.1" class="st1" width="5" height="81.5"/>
-</g>
-<g>
-	<path class="st1" d="M229.5,201.1h-92.3v-5c0-12.8,10.4-23.2,23.2-23.2h8.9v-59.8h9.9v69.8h-18.9c-5.5,0-10.3,3.4-12.3,8.3h70.5
-		c-2-4.8-6.7-8.3-12.3-8.3h-18.9v-69.8h9.9v59.8h8.9c12.8,0,23.2,10.4,23.2,23.2V201.1z"/>
+	<rect x="178.7" y="100" class="st1" width="27.9" height="89.4"/>
 </g>
 </svg>
